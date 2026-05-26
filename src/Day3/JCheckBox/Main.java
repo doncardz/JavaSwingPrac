@@ -12,9 +12,11 @@ public class Main {
 
         JCheckBox checkBoxMale = new JCheckBox("Male");
         JCheckBox checkBoxFemale = new JCheckBox("Female");
+        JCheckBox checkBoxETC = new JCheckBox("ETC");
 
         frame.add(checkBoxMale);
         frame.add(checkBoxFemale);
+        frame.add(checkBoxETC);
 
         frame.setVisible(true);
     }
